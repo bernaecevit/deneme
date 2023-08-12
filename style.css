@@ -1,0 +1,83 @@
+
+
+
+.boyutlandır{
+    padding: 3px 12px !important;
+}
+.boyutlandır2{
+    padding: 3px 3px 3px 23px!important;
+}
+.fa-globe{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
+.hero-img{
+    height: 700px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%) ,url(./img/arkaplan.jpg) ;
+}
+.ortala{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.yerlestir{
+    left: 30px;
+    top: 15px;
+    transition: 0.4s all;
+   
+}
+
+.cizgi{
+    width: 100%;
+    border: 5px solid gray;
+}
+.baslık{    
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+    line-height: 3.2rem;
+}
+.pragraf{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.ustteki{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.ustteki:hover{
+    background-color: #575757;
+}
+.alttaki{
+    background-color: #2d2d2d;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+.ustteki p{
+    margin: 0;
+}
+.active{
+    display: block !important;
+}
+
+.eposta{
+    outline-color: white;
+}
+
+footer a{
+    color: white;
+}
+footer ul{
+    line-height: 30px;
+}
